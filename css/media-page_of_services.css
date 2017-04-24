@@ -1,0 +1,35 @@
+/* Large devices (large desktops, 767px and down) */
+@media (max-width: 767px) {
+    .page_of_services__content .products {
+        padding-right: 15px;
+        margin-top: 5px;
+    }
+    .page_of_services__content .breadcrumb {
+        padding: 10px 15px;
+    }
+}
+
+/* Large devices (large desktops, 575px and down) */
+@media (max-width: 575px) {
+    .page_of_services__content .products {
+        text-align: center;
+    }
+    .page_of_services__content .products-top__card,
+    .page_of_services__content .products-middle__card {
+        margin-bottom: 25px
+    }
+    .page_of_services__content .products-top {
+        margin-bottom: 0;
+    }
+    .page_of_services__content .breadcrumb {
+        padding: 10px 2%;
+    }
+}
+
+/* Large devices (large desktops, 419px and down) */
+@media (max-width: 419px) {
+    .page_of_services__content .products-top__card, 
+    .page_of_services__content .products-middle__card {
+        width: 100%;
+    }
+}
